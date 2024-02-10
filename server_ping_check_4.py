@@ -88,6 +88,6 @@ if __name__ == "__main__":
         if sys.argv[5] == 'network':
             p1.flag = sys.argv[5]
         else:
-            sys.exit("Usage: parameters err")
+            p1.flag = 'server'
         
         detect_failure(p1)
