@@ -70,7 +70,7 @@ if __name__ == "__main__":
         print("Usage: parameters err")
     else:
 
-        class parameters: #エラー条件用パラメータ
+        class parameters: #条件用パラメータ
             pass
         p1 = parameters()
         p1.file_path = sys.argv[1]

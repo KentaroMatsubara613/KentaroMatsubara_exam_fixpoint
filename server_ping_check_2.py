@@ -1,5 +1,4 @@
 import sys
-import sys
 
 def detect_failure(log_file, count_limit):
     d_failures = {}  # 故障状態のサーバと故障期間を格納する辞書
@@ -34,7 +33,6 @@ def detect_failure(log_file, count_limit):
         print(f"サーバ {server} は {failure_info['start_time']} から現在まで故障しています。")
 
     file.close()
-
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:

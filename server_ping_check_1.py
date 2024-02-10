@@ -29,9 +29,8 @@ def detect_failure(log_file):
     # 故障が終了していないサーバの情報を出力
     for server, failure_info in d_failures.items():
         print(f"サーバ {server} は {failure_info['start_time']} から現在まで故障しています。")
-
+    
     file.close()
-
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
